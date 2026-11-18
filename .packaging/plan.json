@@ -1,0 +1,46 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Comfortaa",
+        "source": "ofl/comfortaa/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 6,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "7af0d90b4d532ffa4b041937b560c6df4e7b1e95",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/ebc02c84599c93a6.css",
+        "sha256": "bb8fafc77236e72dfa9bd4e68d387ce85155034daea8b3688fdc8444b32f0288",
+        "url": "https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 84780,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "nikhilesh-s/before-it-breaks-dfm",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/ebc02c84599c93a6.css",
+    ".packaging/google-fonts/files/0bf2426ed4514549a7a3.woff2",
+    ".packaging/google-fonts/files/41e0737dc6a496bdf8d6.woff2",
+    ".packaging/google-fonts/files/73ab238891def2d4dbdc.woff2",
+    ".packaging/google-fonts/files/900be9366a1c04e17617.woff2",
+    ".packaging/google-fonts/files/ac206f07d9be9497ca9d.woff2",
+    ".packaging/google-fonts/files/b009ff199d0c0fc8bf1f.woff2",
+    ".packaging/google-fonts/licenses/Comfortaa-OFL-1.1.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "8f042812224aad5009a5b1cec9876df2ee60951b"
+}
